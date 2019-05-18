@@ -9,7 +9,6 @@ class Navbar extends React.Component {
                 <NavButton name="Home" />
                 <NavButton name="Resume" />
                 <NavButton name="Works" />
-                <NavButton name="Contact" />
                 <NavButton name="Podcasts" />
                 <NavButton name="Photos" />
                 <NavButton name="Design" />
