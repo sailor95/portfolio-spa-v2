@@ -1,14 +1,17 @@
 import React from 'react';
-import './App.css';
+import { Provider } from 'react-redux';
 
-import Navbar from './containers/navbar/Navbar';
+import './App.css';
+import store from './store';
+import Main from './components/main/Main';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <div>App~</div>
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <Main />
+      </div>
+    </Provider>
   );
 }
 
