@@ -1,17 +1,18 @@
 import React from 'react';
 
+import classes from './Navbar.module.css';
 import NavButton from '../../components/ui/buttons/NavButton';
 
 class Navbar extends React.Component {
     render() {
         return (
-            <div>
-                <NavButton name="Home" />
-                <NavButton name="Resume" />
-                <NavButton name="Works" />
-                <NavButton name="Podcasts" />
-                <NavButton name="Photos" />
-                <NavButton name="Design" />
+            <div className={classes.Navbar}>
+                <NavButton name="Home" url={"/"} />
+                <NavButton name="Resume" url={"/resume"} />
+                <NavButton name="Works" url={"/works"} />
+                <NavButton name="Podcasts" url={"/podcasts"} />
+                <NavButton name="Photos" url={"/photos"} />
+                <NavButton name="Design" url={"/design"} />
             </div>
         );
     }
