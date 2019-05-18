@@ -1,5 +1,15 @@
-.Button {
-    text-transform: uppercase;
+.Nav {
     display: inline-block;
+    text-transform: uppercase;
+    font-weight: 300;
     margin: 1em;
+}
+
+.Base {
+    text-decoration: none;
+}
+
+.Selected {
+    border-bottom: 2px solid black;
+    padding-bottom: 3px;
 }
