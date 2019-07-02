@@ -1,13 +1,15 @@
 import React from 'react';
 
+import IntroBlock from '../../../components/ui/intro/IntroBlock';
+
 class HomePage extends React.Component {
     render() {
         return (
             <div>
-                <h1>I am David Huang</h1>
-                <p>I love to design and make things, I value interface and UX.</p>
-                <p>My biggest dream is to develop a world changing product.</p>
-                <p>The idea of improving life through technology always brings me excitement and joy.</p>
+                <IntroBlock />
+                <hr />
+                <p>Recent works</p>
+                <p>work 1 | work 2 | work 3</p>
                 <hr />
                 <p>linkedin | GitHub | Medium</p>
                 <br />
