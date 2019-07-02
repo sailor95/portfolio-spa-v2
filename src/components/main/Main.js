@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import Navbar from '../../containers/navbar/Navbar';
 import HomePage from '../../containers/navbar/home/HomePage';
@@ -11,7 +11,7 @@ import DesignPage from '../../containers/navbar/design/DesignPage';
 
 const Main = () => {
     return (
-        <BrowserRouter>
+        <>
             <Navbar />
             <Switch>
                 <Route exact path="/" component={HomePage} />
@@ -21,7 +21,7 @@ const Main = () => {
                 <Route exact path="/photos" component={PhotosPage} />
                 <Route exact path="/design" component={DesignPage} />
             </Switch>
-        </BrowserRouter>
+        </>
     );
 }
 
