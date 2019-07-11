@@ -1,13 +1,14 @@
 import React from 'react';
 
 import IntroBlock from '../../../components/ui/intro/IntroBlock';
+import { LinkBlock } from '../../../components/ui/links/LinkBlock';
 
 class HomePage extends React.Component {
     render() {
         return (
             <div>
                 <IntroBlock />
-                <h5>Links block</h5>
+                <LinkBlock />
                 <hr />
                 <h3>Skill Set</h3>
                 <h5>Skill blocks UI</h5>
