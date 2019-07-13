@@ -4,7 +4,6 @@ import { NavLink } from 'react-router-dom';
 import classes from './NavButton.module.css';
 
 const NavButton = (props) => {
-    console.log(props);
     return (
         <div className={classes.Nav}>
             <NavLink exact to={props.url} className={`text-decoration-none text-dark ${classes.Base}`} activeClassName={classes.Selected}>
