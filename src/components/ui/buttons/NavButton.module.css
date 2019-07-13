@@ -9,6 +9,11 @@
     text-decoration: none;
 }
 
+.Base:hover {
+    border-bottom: 2px solid black;
+    padding-bottom: 3px;
+}
+
 .Selected {
     border-bottom: 2px solid black;
     padding-bottom: 3px;

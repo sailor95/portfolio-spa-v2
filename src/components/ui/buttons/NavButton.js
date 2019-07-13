@@ -7,7 +7,9 @@ const NavButton = (props) => {
     console.log(props);
     return (
         <div className={classes.Nav}>
-            <NavLink exact to={props.url} className={classes.Base} activeClassName={classes.Selected}>{props.name}</NavLink>
+            <NavLink exact to={props.url} className={`text-decoration-none text-dark ${classes.Base}`} activeClassName={classes.Selected}>
+                {props.name}
+            </NavLink>
         </div>
     );
 }
