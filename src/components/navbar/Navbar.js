@@ -1,7 +1,7 @@
 import React from 'react';
 
 import classes from './Navbar.module.css';
-import NavButton from '../../components/ui/buttons/NavButton';
+import NavButton from '../ui/buttons/NavButton';
 
 class Navbar extends React.Component {
     render() {

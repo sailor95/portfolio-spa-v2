@@ -1,13 +1,13 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import Navbar from '../../containers/navbar/Navbar';
-import HomePage from '../../containers/navbar/home/HomePage';
-import ResumePage from '../../containers/navbar/resume/ResumePage';
-import WorksPage from '../../containers/navbar/works/WorksPage';
-import PodcastsPage from '../../containers/navbar/podcasts/PodcastsPage';
-import PhotosPage from '../../containers/navbar/photos/PhotosPage';
-import DesignPage from '../../containers/navbar/design/DesignPage';
+import Navbar from '../navbar/Navbar';
+import HomePage from '../feature-page/home/HomePage';
+import ResumePage from '../feature-page/resume/ResumePage';
+import WorksPage from '../feature-page/works/WorksPage';
+import PodcastsPage from '../feature-page/podcasts/PodcastsPage';
+import PhotosPage from '../feature-page/photos/PhotosPage';
+import DesignPage from '../feature-page/design/DesignPage';
 
 const Main = () => {
     return (
