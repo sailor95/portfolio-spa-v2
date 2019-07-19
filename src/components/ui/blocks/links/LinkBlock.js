@@ -1,8 +1,8 @@
 import React from 'react';
 
-import linkedInIcon from '../../../res/pictures/linkedin-logo-64px.png';
-import gitHubIcon from '../../../res/pictures/GitHub-Mark-64px.png';
-import mediumIcon from '../../../res/pictures/medium-size.png';
+import linkedInIcon from '../../../../res/pictures/linkedin-logo-64px.png';
+import gitHubIcon from '../../../../res/pictures/GitHub-Mark-64px.png';
+import mediumIcon from '../../../../res/pictures/medium-size.png';
 import classes from './LinkBlock.module.css';
 
 const LinkBlock = () => {
@@ -15,4 +15,4 @@ const LinkBlock = () => {
     );
 };
 
-export { LinkBlock };
+export default LinkBlock;

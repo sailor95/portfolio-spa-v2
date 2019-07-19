@@ -3,8 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
-import { skillSet } from '../../../constants/globalConstants';
-import LevelsBar from '../levels/LevelsBar';
+import { skillSet } from '../../../../constants/globalConstants';
+import LevelsBar from '../../levelsBar/LevelsBar';
 
 const SkillSetBlock = () => {
     return (
@@ -44,4 +44,4 @@ const SkillBlock = ({ skillSet }) => {
     });
 }
 
-export { SkillSetBlock };
+export default SkillSetBlock;

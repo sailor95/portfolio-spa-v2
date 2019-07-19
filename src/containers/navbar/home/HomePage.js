@@ -1,8 +1,8 @@
 import React from 'react';
 
-import IntroBlock from '../../../components/ui/intro/IntroBlock';
-import { LinkBlock } from '../../../components/ui/links/LinkBlock';
-import { SkillSetBlock } from '../../../components/ui/blocks/blocks';
+import IntroBlock from '../../../components/ui/blocks/intro/IntroBlock';
+import LinkBlock from '../../../components/ui/blocks/links/LinkBlock';
+import SkillSetBlock from '../../../components/ui/blocks/skills/SkillSetBlock';
 import classes from './HomePage.module.css';
 
 class HomePage extends React.Component {
