@@ -2,9 +2,9 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Levels from 'react-star-rating-component';
 
 import { skillSet } from '../../../constants/globalConstants';
+import LevelsBar from '../levels/LevelsBar';
 
 const SkillSetBlock = () => {
     return (
@@ -27,11 +27,10 @@ const SkillBlock = ({ skillSet }) => {
                 <Row md="auto" className="border m-0" key={oneTech.tech} >
                     <Col className="text-sm-left">{oneTech.tech}</Col>
                     <Col>
-                        <Levels
+                        <LevelsBar
                             name={oneTech.tech}
                             value={oneTech.level}
-                            starCount={5}
-                            editing={false}
+                            levelCount={5}
                         />
                     </Col>
                 </Row>
