@@ -17,7 +17,6 @@ class HomePage extends React.Component {
                 <p>Recent works</p>
                 <p>work 1 | work 2 | work 3</p>
                 <hr className={classes.Separator} />
-                <p>linkedin | GitHub | Medium</p>
                 <br />
                 <p>This SPA is made by me, code & doc.</p>
             </div>
