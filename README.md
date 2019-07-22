@@ -1,7 +1,7 @@
 Commit rules:
 
   4 main commit types:
-- [features]
+- [feature]
 - [util]
 - [bugfix]
 - [UI]
