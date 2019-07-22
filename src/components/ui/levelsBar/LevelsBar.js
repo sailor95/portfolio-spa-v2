@@ -1,40 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-class LevelsBar extends React.Component {
-    static propTypes = {
-        name: PropTypes.string.isRequired,
-        value: PropTypes.number,
-        levelCount: PropTypes.number,
-        levelColor: PropTypes.string,
-        emptyLevelColor: PropTypes.string
-    };
+const LevelsBar = ({
+    name,
+    levelCount,
+    levelColor,
+    emptyLevelColor,
+    value
+}) => {
 
-    static defaultProps = {
-        levelCount: 5,
-        levelColor: '#ffb400',
-        emptyLevelColor: '#333'
-    }
-
-    constructor(props) {
-        super();
-
-        this.state = {
-            value: props.value
-        };
-    }
-
-    renderLevels = () => {
+    const renderLevels = () => {
         let levelNodes = [];
-
-        const {
-            name,
-            levelCount,
-            levelColor,
-            emptyLevelColor
-        } = this.props;
-
-        const { value } = this.state;
 
         const levelStyles = (i, value) => ({
             float: 'right',
@@ -59,13 +35,25 @@ class LevelsBar extends React.Component {
         return levelNodes.length ? levelNodes : null;
     }
 
-    render() {
-        return (
-            <div style={{ display: 'inline-block', position: 'relative' }}>
-                {this.renderLevels()}
-            </div>
-        );
-    }
+    return (
+        <div style={{ display: 'inline-block', position: 'relative' }}>
+            {renderLevels()}
+        </div>
+    );
 }
+
+LevelsBar.propTypes = {
+    name: PropTypes.string.isRequired,
+    value: PropTypes.number,
+    levelCount: PropTypes.number,
+    levelColor: PropTypes.string,
+    emptyLevelColor: PropTypes.string
+};
+
+LevelsBar.defaultProps = {
+    levelCount: 5,
+    levelColor: '#ffb400',
+    emptyLevelColor: '#333'
+};
 
 export default LevelsBar;
