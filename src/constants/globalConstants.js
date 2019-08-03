@@ -61,6 +61,48 @@ export const skillSet = {
     ]
 };
 
+// Home page recent works obj
 export const workSet = {
-
-};
+    "Streamy": {
+        des: "A streaming SPA",
+        techs: [
+            {
+                name: "Front-end",
+                items: ["React", "Redux"]
+            },
+            {
+                name: "Back-end",
+                items: ["Node.js", "MongoDB"]
+            }
+        ],
+        link: "https://github.com/sailor95/streamy"
+    },
+    "Mello ": {
+        des: "Mock Trello SPA",
+        techs: [
+            {
+                name: "Front-end",
+                items: ["React", "Redux", "CSS module"]
+            },
+            {
+                name: "Back-end",
+                items: ["ASP.NET Core 2.2", "Azure BLOB"]
+            }
+        ],
+        link: "https://github.com/sailor95/AspNetMvc-WebStore"
+    },
+    "Dave's Store": {
+        des: "Web shop project",
+        techs: [
+            {
+                name: "Front-end",
+                items: ["Razor", "jQuery"]
+            },
+            {
+                name: "Back-end",
+                items: ["ASP.NET MVC 5", "MSSQL"]
+            }
+        ],
+        link: "https://github.com/sailor95/AspNetMvc-WebStore"
+    },
+}
