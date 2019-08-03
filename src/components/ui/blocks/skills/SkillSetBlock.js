@@ -12,14 +12,14 @@ const SkillSetBlock = () => {
             <h3>Skill Set</h3>
             <Container>
                 <Row>
-                    <SkillBlock skillSet={skillSet} />
+                    <SkillBlocks skillSet={skillSet} />
                 </Row>
             </Container>
         </>
     );
 }
 
-const SkillBlock = ({ skillSet }) => {
+const SkillBlocks = ({ skillSet }) => {
     return Object.keys(skillSet).map(key => {
         let techs = [];
         techs = skillSet[key].map(oneTech => {
