@@ -60,3 +60,7 @@ export const skillSet = {
         }
     ]
 };
+
+export const workSet = {
+
+};
