@@ -4,6 +4,7 @@ import IntroBlock from '../../ui/blocks/intro/IntroBlock';
 import LinkBlock from '../../ui/blocks/links/LinkBlock';
 import SkillSetBlock from '../../ui/blocks/skills/SkillSetBlock';
 import RecentWorkBlock from '../../ui/blocks/recentWorks/RecentWorks';
+import SpaIntroBlock from '../../ui/blocks/intro/SpaIntroBlock';
 import classes from './HomePage.module.css';
 
 class HomePage extends React.Component {
@@ -17,8 +18,7 @@ class HomePage extends React.Component {
                 <hr className={classes.Separator} />
                 <RecentWorkBlock />
                 <hr className={classes.Separator} />
-                <br />
-                <p>This SPA is made by me, code & doc.</p>
+                <SpaIntroBlock />
             </div>
         );
     }
