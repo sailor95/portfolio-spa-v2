@@ -9,7 +9,7 @@ import classes from './SpaIntroBlock.module.css';
 const SpaIntroBlock = props => {
     return (
         <div className="border p-4">
-            <h3>This is a SPA made by me, code & doc.</h3>
+            <h3>This is a SPA made by me, <a href="https://github.com/sailor95/Portfolio-SPA-v2">code & doc</a>.</h3>
             <div className="d-flex justify-content-around">
                 <div className="border p-3"><img className={classes.Logo} src={ReactLogo} alt="React/Redux" /> React/Redux</div>
                 <div className="border p-3"><img className={classes.Logo} src={AspLogo} alt="ASP.NET Core" /> ASP.NET Core</div>
