@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Home page intro paragraph
-export const introString = (<p>I love to design and make things, I value the needs of user. <br />
+export const introString = (<p style={{ fontSize: '1.5rem' }}>I love to design and make things, I value the needs of user. <br />
     My dream is to develop world changing products with passion. <br />
     I'm a hybrid geek who loves arts, workout, business and the world of tech.</p>);
 
