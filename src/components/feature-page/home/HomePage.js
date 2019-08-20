@@ -1,7 +1,6 @@
 import React from 'react';
 
 import IntroBlock from '../../ui/blocks/intro/IntroBlock';
-import LinkBlock from '../../ui/blocks/links/LinkBlock';
 import SkillSetBlock from '../../ui/blocks/skills/SkillSetBlock';
 import RecentWorkBlock from '../../ui/blocks/recentWorks/RecentWorks';
 import SpaIntroBlock from '../../ui/blocks/intro/SpaIntroBlock';
@@ -12,7 +11,6 @@ class HomePage extends React.Component {
         return (
             <div className={classes.Layout}>
                 <IntroBlock />
-                <LinkBlock />
                 <hr className={classes.Separator} />
                 <SkillSetBlock />
                 <hr className={classes.Separator} />
