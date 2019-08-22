@@ -9,9 +9,13 @@ import LevelsBar from '../../levelsBar/LevelsBar';
 const SkillSetBlock = () => {
     return (
         <>
-            <h3>Skill Set</h3>
             <Container>
-                <Row>
+                <Row className="justify-content-center align-content-center" style={{ height: '55vh' }}>
+                    <Col className="col-12">
+                        <h2 style={{ fontSize: '2rem', margin: '2rem auto' }}>
+                            Skill Set
+                        </h2>
+                    </Col>
                     <SkillBlocks skillSet={skillSet} />
                 </Row>
             </Container>

@@ -8,9 +8,13 @@ import { workSet } from '../../../../constants/globalConstants';
 const RecentWorkBlock = () => {
     return (
         <>
-            <h3>Recent Works</h3>
             <Container>
-                <Row>
+                <Row className="justify-content-center align-content-center" style={{ height: '55vh' }}>
+                    <Col className="col-12">
+                        <h2 style={{ fontSize: '2rem', margin: '2rem auto' }}>
+                            Recent Works
+                        </h2>
+                    </Col>
                     <RecentWroks workSet={workSet} />
                 </Row>
             </Container>
