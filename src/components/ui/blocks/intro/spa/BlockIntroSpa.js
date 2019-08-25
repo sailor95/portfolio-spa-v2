@@ -2,13 +2,13 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
-import ReactLogo from '../../../../res/pictures/react.png';
-import AspLogo from '../../../../res/pictures/aspnetcore.png';
-import AzureLogo from '../../../../res/pictures/azure.png';
-import SqlLogo from '../../../../res/pictures/database.png';
-import classes from './SpaIntroBlock.module.css';
+import ReactLogo from '../../../../../res/pictures/react.png';
+import AspLogo from '../../../../../res/pictures/aspnetcore.png';
+import AzureLogo from '../../../../../res/pictures/azure.png';
+import SqlLogo from '../../../../../res/pictures/database.png';
+import classes from './BlockIntroSpa.module.css';
 
-const SpaIntroBlock = props => {
+const BlockIntroSpa = props => {
     return (
         <Container>
             <Row className="justify-content-center align-content-center" style={{ height: '30vh' }}>
@@ -26,4 +26,4 @@ const SpaIntroBlock = props => {
     );
 };
 
-export default SpaIntroBlock;
+export default BlockIntroSpa;

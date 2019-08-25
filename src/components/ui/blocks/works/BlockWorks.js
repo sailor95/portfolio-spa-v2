@@ -1,6 +1,26 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+
+import { workSet } from '../../../../constants/globalConstants';
+
+const BlockWorks = () => {
+    return (
+        <>
+            <Container>
+                <Row className="justify-content-center align-content-center" style={{ height: '55vh' }}>
+                    <Col className="col-12">
+                        <h2 style={{ fontSize: '2rem', margin: '2rem auto' }}>
+                            Recent Works
+                        </h2>
+                    </Col>
+                    <RecentWorks workSet={workSet} />
+                </Row>
+            </Container>
+        </>
+    );
+}
 
 const RecentWorks = ({ workSet }) => {
     return Object.keys(workSet).map(work => {
@@ -31,4 +51,4 @@ const RecentWorks = ({ workSet }) => {
     });
 }
 
-export default RecentWorks;
+export default BlockWorks;

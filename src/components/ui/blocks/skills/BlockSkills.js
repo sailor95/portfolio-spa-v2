@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 import { skillSet } from '../../../../constants/globalConstants';
 import LevelsBar from '../../levelsBar/LevelsBar';
 
-const SkillSetBlock = () => {
+const BlockSkills = () => {
     return (
         <>
             <Container>
@@ -16,14 +16,14 @@ const SkillSetBlock = () => {
                             Skill Set
                         </h2>
                     </Col>
-                    <SkillBlocks skillSet={skillSet} />
+                    <SkillSet skillSet={skillSet} />
                 </Row>
             </Container>
         </>
     );
 }
 
-const SkillBlocks = ({ skillSet }) => {
+const SkillSet = ({ skillSet }) => {
     return Object.keys(skillSet).map(key => {
         let techs = [];
         techs = skillSet[key].map(oneTech => {
@@ -48,4 +48,4 @@ const SkillBlocks = ({ skillSet }) => {
     });
 }
 
-export default SkillSetBlock;
+export default BlockSkills;
