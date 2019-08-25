@@ -2,7 +2,7 @@ import React from 'react';
 
 import DavidIntroBlock from '../../ui/blocks/intro-blocks/DavidIntroBlock';
 import SkillSetBlock from '../../ui/blocks/skills/SkillSetBlock';
-import RecentWorkBlock from '../../ui/blocks/recentWorks/RecentWorks';
+import RecentWorkBlock from '../../ui/blocks/recent-works-blocks/RecentWorksBlock';
 import SpaIntroBlock from '../../ui/blocks/intro-blocks/SpaIntroBlock';
 import classes from './HomePage.module.css';
 
