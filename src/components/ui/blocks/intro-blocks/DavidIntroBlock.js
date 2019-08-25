@@ -6,7 +6,7 @@ import {
 } from 'react-bootstrap';
 
 import { introString } from '../../../../constants/globalConstants';
-import LinkBlock from '../links/LinkBlock';
+import LinkBlock from '../link-blocks/LinkBlock';
 
 const DavidIntroBlock = () => {
     return (
