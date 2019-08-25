@@ -8,7 +8,7 @@ import {
 import { introString } from '../../../../constants/globalConstants';
 import LinkBlock from '../links/LinkBlock';
 
-const IntroBlockDavid = () => {
+const DavidIntroBlock = () => {
     return (
         <Container>
             <Row className="justify-content-center align-content-center" style={{ height: '75vh' }}>
@@ -20,4 +20,4 @@ const IntroBlockDavid = () => {
     );
 }
 
-export default IntroBlockDavid;
+export default DavidIntroBlock;

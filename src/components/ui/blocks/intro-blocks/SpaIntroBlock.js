@@ -6,9 +6,9 @@ import ReactLogo from '../../../../res/pictures/react.png';
 import AspLogo from '../../../../res/pictures/aspnetcore.png';
 import AzureLogo from '../../../../res/pictures/azure.png';
 import SqlLogo from '../../../../res/pictures/database.png';
-import classes from './IntroBlockSpa.module.css';
+import classes from './SpaIntroBlock.module.css';
 
-const IntroBlockSpa = props => {
+const SpaIntroBlock = props => {
     return (
         <Container>
             <Row className="justify-content-center align-content-center" style={{ height: '30vh' }}>
@@ -26,4 +26,4 @@ const IntroBlockSpa = props => {
     );
 };
 
-export default IntroBlockSpa;
+export default SpaIntroBlock;
