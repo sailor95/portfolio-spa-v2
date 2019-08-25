@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const LevelsBar = ({
+const HomeLevelsBar = ({
     name,
     levelCount,
     levelColor,
@@ -42,7 +42,7 @@ const LevelsBar = ({
     );
 }
 
-LevelsBar.propTypes = {
+HomeLevelsBar.propTypes = {
     name: PropTypes.string.isRequired,
     value: PropTypes.number,
     levelCount: PropTypes.number,
@@ -50,10 +50,10 @@ LevelsBar.propTypes = {
     emptyLevelColor: PropTypes.string
 };
 
-LevelsBar.defaultProps = {
+HomeLevelsBar.defaultProps = {
     levelCount: 5,
     levelColor: '#ffb400',
     emptyLevelColor: '#333'
 };
 
-export default LevelsBar;
+export default HomeLevelsBar;

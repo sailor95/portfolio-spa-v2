@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import Navbar from '../navbar/Navbar';
+import Navbar from '../ui/navbar/Navbar';
 import HomePage from '../feature-page/home/HomePage';
 import ResumePage from '../feature-page/resume/ResumePage';
 import WorksPage from '../feature-page/works/WorksPage';

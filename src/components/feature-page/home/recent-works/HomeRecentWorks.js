@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 
 import { workSet } from '../../../../constants/globalConstants';
 
-const RecentWorkBlock = () => {
+const HomeRecentWorks = () => {
     return (
         <>
             <Container>
@@ -15,14 +15,14 @@ const RecentWorkBlock = () => {
                             Recent Works
                         </h2>
                     </Col>
-                    <RecentWroks workSet={workSet} />
+                    <WorkSet workSet={workSet} />
                 </Row>
             </Container>
         </>
     );
 }
 
-const RecentWroks = ({ workSet }) => {
+const WorkSet = ({ workSet }) => {
     return Object.keys(workSet).map(work => {
         let techs = [];
         techs = workSet[work].techs.map(tech => {
@@ -51,4 +51,4 @@ const RecentWroks = ({ workSet }) => {
     });
 }
 
-export default RecentWorkBlock;
+export default HomeRecentWorks;

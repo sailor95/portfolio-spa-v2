@@ -1,9 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import classes from './NavButton.module.css';
+import classes from './NavbarButton.module.css';
 
-const NavButton = (props) => {
+const NavbarButton = (props) => {
     return (
         <div className={classes.Nav}>
             <NavLink exact to={props.url} className={`text-decoration-none text-dark ${classes.Base}`} activeClassName={classes.Selected}>
@@ -13,4 +13,4 @@ const NavButton = (props) => {
     );
 }
 
-export default NavButton;
+export default NavbarButton;
