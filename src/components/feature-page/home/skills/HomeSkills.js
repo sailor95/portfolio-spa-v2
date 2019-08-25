@@ -4,16 +4,16 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
 import { skillSet } from '../../../../constants/globalConstants';
-import LevelsBar from '../../levelsBar/LevelsBar';
+import HomeLevelsBar from '../levels-bar/HomeLevelsBar';
 
-const BlockSkills = () => {
+const HomeSkills = () => {
     return (
         <>
             <Container>
                 <Row className="justify-content-center align-content-center" style={{ height: '55vh' }}>
                     <Col className="col-12">
                         <h2 style={{ fontSize: '2rem', margin: '2rem auto' }}>
-                            Skill Set
+                            Skills
                         </h2>
                     </Col>
                     <SkillSet skillSet={skillSet} />
@@ -31,7 +31,7 @@ const SkillSet = ({ skillSet }) => {
                 <Row md="auto" className="border m-0" key={oneTech.tech} >
                     <Col className="text-sm-left">{oneTech.tech}</Col>
                     <Col>
-                        <LevelsBar
+                        <HomeLevelsBar
                             name={oneTech.tech}
                             value={oneTech.level}
                             levelCount={5}
@@ -48,4 +48,4 @@ const SkillSet = ({ skillSet }) => {
     });
 }
 
-export default BlockSkills;
+export default HomeSkills;

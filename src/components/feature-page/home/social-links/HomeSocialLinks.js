@@ -3,9 +3,9 @@ import React from 'react';
 import linkedInIcon from '../../../../res/pictures/linkedin-logo-64px.png';
 import gitHubIcon from '../../../../res/pictures/GitHub-Mark-64px.png';
 import mediumIcon from '../../../../res/pictures/medium-size.png';
-import classes from './BlockLinks.module.css';
+import classes from './HomeSocialLinks.module.css';
 
-const BlockLink = () => {
+const HomeSocialLinks = () => {
     return (
         <>
             <a href="https://github.com/sailor95" target="_blank" rel="noopener noreferrer"><img className={classes.Icon} src={gitHubIcon} alt="GitHub Link" /></a>
@@ -15,4 +15,4 @@ const BlockLink = () => {
     );
 };
 
-export default BlockLink;
+export default HomeSocialLinks;
