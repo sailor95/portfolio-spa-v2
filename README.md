@@ -9,7 +9,7 @@
 
 ## Components Naming Rules
 
-Follows this [article](https://medium.com/@Charles_Stover/optimal-file-structure-for-react-applications-f3e35ad0a145).  
+Following this [article](https://medium.com/@Charles_Stover/optimal-file-structure-for-react-applications-f3e35ad0a145).  
 
 Example:  
 
