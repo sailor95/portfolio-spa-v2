@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 
 import { skillSet } from '../../../../constants/globalConstants';
 import HomeLevelsBar from '../levels-bar/HomeLevelsBar';
+import { HomeNextSubjectButton } from '../smooth-scroll-buttons/HomeSmoothScrollButtons';
 
 const HomeSkills = () => {
     return (
@@ -17,6 +18,7 @@ const HomeSkills = () => {
                         </h2>
                     </Col>
                     <SkillSet skillSet={skillSet} />
+                    <Col className="col-12"><HomeNextSubjectButton marginTop="6rem" /></Col>
                 </Row>
             </Container>
         </>
