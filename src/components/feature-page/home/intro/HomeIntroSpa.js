@@ -13,7 +13,7 @@ import classes from './HomeIntroSpa.module.css';
 const HomeIntroSpa = props => {
     return (
         <Container>
-            <Row className="justify-content-center align-content-center" style={{ height: '30vh' }}>
+            <Row id="homeIntroSpa" className="justify-content-center align-content-center" style={{ height: '50vh' }}>
                 <Col>
                     <div className="border p-4">
                         <h3>This is a SPA made by me, <a href="https://github.com/sailor95/Portfolio-SPA-v2">code & doc</a>.</h3>
@@ -25,7 +25,7 @@ const HomeIntroSpa = props => {
                         </div>
                     </div>
                 </Col>
-                <Col className="col-12"><HomeToTopButton marginTop="2rem" /></Col>
+                <Col className="col-12"><HomeToTopButton marginTop="5rem" /></Col>
             </Row>
         </Container>
     );

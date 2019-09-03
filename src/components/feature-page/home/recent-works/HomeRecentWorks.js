@@ -10,14 +10,14 @@ const HomeRecentWorks = () => {
     return (
         <>
             <Container>
-                <Row className="justify-content-center align-content-center" style={{ height: '55vh' }}>
+                <Row id="homeRecentWorks" className="justify-content-center align-content-center" style={{ height: '55vh' }}>
                     <Col className="col-12">
                         <h2 style={{ fontSize: '2rem', margin: '2rem auto' }}>
                             Recent Works
                         </h2>
                     </Col>
                     <WorkSet workSet={workSet} />
-                    <Col className="col-12"><HomeNextSubjectButton marginTop="6rem" /></Col>
+                    <Col className="col-12"><HomeNextSubjectButton subjectId="homeIntroSpa" marginTop="6rem" /></Col>
                 </Row>
             </Container>
         </>
