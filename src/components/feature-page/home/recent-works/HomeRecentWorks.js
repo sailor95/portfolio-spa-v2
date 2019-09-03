@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
 import { workSet } from '../../../../constants/globalConstants';
+import { HomeNextSubjectButton } from '../smooth-scroll-buttons/HomeSmoothScrollButtons';
 
 const HomeRecentWorks = () => {
     return (
@@ -16,6 +17,7 @@ const HomeRecentWorks = () => {
                         </h2>
                     </Col>
                     <WorkSet workSet={workSet} />
+                    <Col className="col-12"><HomeNextSubjectButton marginTop="6rem" /></Col>
                 </Row>
             </Container>
         </>
